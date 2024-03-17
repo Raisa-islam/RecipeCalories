@@ -16,7 +16,7 @@ const Navbar = () => {
                         <li><a>Search</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl text-[#150B2B] font-bold">Recipe Calories</a>
+                <a className="btn btn-ghost text-xl md:text-3xl text-[#150B2B] font-bold">Recipe Calories</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg font-normal text-[#150B2BB3]">
@@ -33,23 +33,13 @@ const Navbar = () => {
                     
                 </label>
 
-                <div className="bg-[#0BE58A] w-8 h-8 rounded-full flex flex-row justify-center items-center">
+                <div className="bg-[#0BE58A] w-9 h-9 rounded-full flex flex-row justify-center items-center">
                     <img src={img1} alt="" className="w-6 h-6" />
 
                 </div>
             </div>
         </div>
-        // <div className="flex flex-row justify-between py-3 mt-12">
-        //     <h1 className='text-3xl text-[#150B2B] font-bold'>Recipe Calories</h1>
-        //     <div className="text-lg font-normal text-[#150B2BB3] flex flex-row justify-between w-[400px]">
-        //         <p>Home</p>
-        //         <p>Recipes</p>
-        //         <p>About</p>
-        //         <p>Search</p>
-        //     </div>
-
-        //     
-        // </div>
+        
     );
 };
 

@@ -38,7 +38,7 @@ function App() {
           <Recipes handleAddToWannaCook={handleAddToWannaCook}></Recipes>
         </div>
         
-        <div className='md:w-1/3'>
+        <div className='md:w-1/3 border rounded-2xl border-[#28282833] h-fit'>
           <WannaCook wannaCooks={wannaCooks} handleAddToCurrentlyCooking = {handleAddToCurrentlyCooking}></WannaCook>
           <CurrentlyCooking currentlyCookings = {currentlyCookings}></CurrentlyCooking>
         </div>
