@@ -1,9 +1,9 @@
-import React from 'react';
+
 import PropTypes from "prop-types";
 
 const CurrentlyCookingCard = ({currentlyCooking, count}) => {
     console.log(currentlyCooking);
-    const { recipe_id, recipe_name,  preparing_time, calories} = currentlyCooking;
+    const {recipe_name,  preparing_time, calories} = currentlyCooking;
    
     return (
         <>

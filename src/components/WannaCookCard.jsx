@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const WannaCookCard = ({wannaCook, handleAddToCurrentlyCooking, count }) => {
-    const { recipe_id, recipe_name,  preparing_time, calories} = wannaCook;
+    const {recipe_name,  preparing_time, calories} = wannaCook;
     console.log(wannaCook);
 
     return (

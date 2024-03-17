@@ -11,7 +11,7 @@ const RecipeCard = ({ recipe, handleAddToWannaCook }) => {
               
             <div className="card w-96 bg-white p-6 border border-[#28282833]">
                 <figure className="">
-                    <img src={recipe_image} alt="Shoes" className="rounded-xl" />
+                    <img src={recipe_image} alt="Shoes" className="rounded-xl w-72 h-56" />
                 </figure>
                 <div className="mt-6">
                     <div className='mb-4'>

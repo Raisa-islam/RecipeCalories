@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PropTypes from "prop-types";
 import CurrentlyCookingCard from './CurrentlyCookingCard';
 
@@ -18,12 +18,12 @@ const CurrentlyCooking = ({ currentlyCookings }) => {
                 <table className="table">
                     {/* head */}
                     <thead>
-                        <tr>
+                        <tr className="text-[16px] font-medium text-[#878787]">
                             <th></th>
                             <th>Name</th>
                             <th>Time</th>
                             <th>Calories</th>
-                            <th></th>
+                            
                         </tr>
                     </thead>
                     <tbody>
@@ -40,8 +40,8 @@ const CurrentlyCooking = ({ currentlyCookings }) => {
                         <tr>
                             <th></th>
                             <th></th>
-                            <th>Total Time = <br /> {TotalTime} minutes</th>
-                            <th>Total Calories = <br />{TotalCal} calories</th>
+                            <th className='text-[16px] font-medium'>Total Time = <br /> {TotalTime} minutes</th>
+                            <th className='text-[16px] font-medium'>Total Calories = <br />{TotalCal} calories</th>
                             
                         </tr>
                     </tfoot>
