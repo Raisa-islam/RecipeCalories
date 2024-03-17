@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import RecipeCard from "../RecipeCard/RecipeCard";
-const Recipes = () => {
+import PropTypes from "prop-types";
+const Recipes = ({handleAddToWannaCook}) => {
 
     const [recipes, setRecipes] = useState([]);
 
@@ -18,7 +19,7 @@ const Recipes = () => {
 
         {
             recipes.map((recipe) => (
-                <RecipeCard key={recipe.id} recipe={recipe}></RecipeCard>
+                <RecipeCard key={recipe.id} recipe={recipe} handleAddToWannaCook={handleAddToWannaCook}></RecipeCard>
             ))
         }
             
@@ -26,4 +27,7 @@ const Recipes = () => {
     );
 };
 
+Recipes.propTypes = {
+    handleAddToWannaCook: PropTypes.func
+}
 export default Recipes;
