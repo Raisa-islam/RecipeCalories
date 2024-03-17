@@ -11,7 +11,7 @@ const CurrentlyCooking = ({ currentlyCookings }) => {
 
     return (
         <div className=''>
-            <div className='flex flex-row justify-center text-xl font-semibold text-[#282828] pt-4 pb-4 border-b-[1px]'>
+            <div className='flex flex-row justify-center text-xl font-semibold text-[#282828] pt-4 pb-4 border-b-[1px] mx-6'>
                 <p>Currently cooking: {currentlyCookings.length}</p>
             </div>
             <div className="mt-2">

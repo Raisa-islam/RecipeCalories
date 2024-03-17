@@ -15,7 +15,7 @@ const Recipes = ({handleAddToWannaCook}) => {
     },[]);
 
     return (
-        <div>
+        <div className="grid md:grid-cols-2 gap-6 justify-center">
 
         {
             recipes.map((recipe) => (

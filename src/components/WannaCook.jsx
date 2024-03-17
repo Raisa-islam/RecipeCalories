@@ -1,4 +1,4 @@
-import React from 'react';
+
 import PropTypes from "prop-types";
 import WannaCookCard from './WannaCookCard';
 
@@ -7,18 +7,18 @@ const WannaCook = ({ wannaCooks, handleAddToCurrentlyCooking }) => {
     // console.log(wannaCooks);
     return (
         <div className=''>
-            <div className='flex flex-row justify-center text-xl font-semibold text-[#282828] pt-4 pb-4 border-b-[1px]'>
+            <div className='flex flex-row justify-center text-xl font-semibold text-[#282828] pt-4 pb-4 border-b-[1px] mx-6'>
                 <p>Want to cook: {wannaCooks.length}</p>
             </div>
 
-            <div className="mt-2">
+            <div className="mt-2 flex flex-row justify-center">
                 <table className="table">
-                    {/* head */}
+                   
                     <thead>
-                        <tr>
-                            <th></th>
-                            <th>Name</th>
-                            <th>Time</th>
+                        <tr className="text-[16px] font-medium text-[#878787]">
+                            <th className="w-[2px]"></th>
+                            <th className="w-4">Name</th>
+                            <th className="w-2">Time</th>
                             <th>Calories</th>
                             <th></th>
                         </tr>
@@ -42,7 +42,7 @@ const WannaCook = ({ wannaCooks, handleAddToCurrentlyCooking }) => {
     );
 };
 
-WannaCook.prototype = {
+WannaCook.propTypes = {
     wannaCooks: PropTypes.object.isRequired,
     handleAddToCurrentlyCooking: PropTypes.func
 }

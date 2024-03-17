@@ -15,12 +15,12 @@ const RecipeCard = ({ recipe, handleAddToWannaCook }) => {
                 </figure>
                 <div className="mt-6">
                     <div className='mb-4'>
-                        <h2 className="card-title mb-4">{recipe_name}</h2>
-                        <p>{short_description}</p>
+                        <h2 className="card-title mb-4 text-[20px] font-semibold">{recipe_name}</h2>
+                        <p className="text-[16px] font-normal text-[#878787]">{short_description}</p>
                     </div>
                     <hr className='bg-[#28282826] mb-6' />
                     <div className='mt-4 mb-4'>
-                        <p>Ingredients: {ingredients.length}</p>
+                        <p className="text-lg font-medium text-[#282828]">Ingredients: {ingredients.length}</p>
                         <div>
                             {
                                 ingredients.map((ingredient) => (<ListItem key ={recipe_id} list={ingredient}></ListItem>))
@@ -33,11 +33,11 @@ const RecipeCard = ({ recipe, handleAddToWannaCook }) => {
                     <div className='flex flex-row justify-between mb-4'>
                         <div className='flex flex-row gap-2'>
                             <img src={clocki} alt="" />
-                            <p>{preparing_time} minutes</p>
+                            <p className="text-[16px] font-normal">{preparing_time} minutes</p>
                         </div>
                         <div className='flex flex-row gap-2'>
                            <img src={flamei} alt="" />
-                            <p>{calories} Calories</p>
+                            <p className="text-[16px] font-normal">{calories} Calories</p>
                         </div>
                     </div>
                     <div className="card-actions">
