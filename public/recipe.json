@@ -1,0 +1,60 @@
+[
+  {
+    "recipe_image": "https://i.ibb.co/rbckjkB/syed-f-hashemi-p91-GLh-Qv35o-unsplash.jpg",
+    "recipe_id": 1,
+    "recipe_name": "Grilled Chicken",
+    "short_description": "A delicious grilled chicken recipe with a touch of herbs and soy sauce.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_image": "https://i.ibb.co/7rh0C0r/dan-gold-4-jh-DO54-BYg-unsplash.jpg",
+    "recipe_id": 2,
+    "recipe_name": "Vegetable Stir Fry",
+    "short_description": "A quick, healthy vegetable stir fry, perfect for a weeknight dinner.",
+    "ingredients": [
+      "150 g broccoli",
+      "100 g carrots",
+      "100 g bell peppers",
+      "50 ml olive oil"
+    ],
+    "preparing_time": 20,
+    "calories": 250
+  },
+  {
+    "recipe_image": "https://i.ibb.co/g4GM8G1/krish-parmar-u-Qx8w-PEs8-II-unsplash.jpg",
+    "recipe_id": 3,
+    "recipe_name": "Beef Tacos",
+    "short_description": "Classic Mexican tacos with a savory beef filling.",
+    "ingredients": [
+      "300 g ground beef",
+      "8 taco shells",
+      "100 g cheddar cheese",
+      "200 g tomatoes",
+      "100 g lettuce"
+    ],
+    "preparing_time": 25,
+    "calories": 480
+  },
+  {
+    "recipe_image": "https://i.ibb.co/4dCD8zZ/carolina-cossio-Ucwd8w-JHw-M-unsplash.jpg",
+    "recipe_id": 4,
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "An Italian pasta dish from Rome made with egg, hard cheese, pancetta, and pepper.",
+    "ingredients": [
+      "400 g spaghetti",
+      "200 g pancetta",
+      "100 g parmesan cheese",
+      "2 large eggs",
+      "Black pepper"
+    ],
+    "preparing_time": 20,
+    "calories": 590
+  }
+]
